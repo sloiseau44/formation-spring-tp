@@ -1,6 +1,6 @@
 = TP formation Spring Core
 
-![Dev-Mind](https://www.dev-mind.fr/img/logo/logo_1500.png)
+image:https://www.dev-mind.fr/img/logo/logo_1500.png[Dev-Mind]
 
 Ce projet contient le minimum de configuration pour initier un projet Spring dans le cadre de la formation Spring Framework de Dev-Mind.
 
