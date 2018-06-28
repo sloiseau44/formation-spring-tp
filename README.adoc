@@ -22,11 +22,25 @@ Au niveau de votre poste de travail, vous devez avoir
 
 == Installation
 
+=== Recuperation du projet
+
 Pour récupérer le projet vous devez lancer la commande git suivante
 
 ```
 git clone https://github.com/Dev-Mind/formation-spring-tp-core.git
 ```
+
+=== Ouverture dans IDE
+
+Dans IntelliJ allez dans "File" + "Open"
+
+La fenêtre suivante s'ouvre 
+
+image:installation1.png[Dev-Mind]
+
+Faites en sorte d'avoir les mêmes paramètres et cliquez sur le bouton OK. L'IDE va configurer votre projet
+
+=== En ligne de commande
 
 Une fois récupéré allez dans le répertoire ou le projet a été installé et lancez la commande
 
