@@ -1,0 +1,59 @@
+package com.training.springcore.model;
+
+import java.util.Objects;
+import java.util.UUID;
+
+public class Site {
+    /**
+     * Site id
+     */
+    private String id = UUID.randomUUID().toString();
+
+    /**
+     * Site name
+     */
+    private String name;
+
+    @Deprecated
+    public Site() {
+        // Use for serializer or deserializer
+    }
+
+    /**
+     * Constructor to use with required property
+     * @param name
+     */
+    public Site(String name) {
+        this.name = name;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Site site = (Site) o;
+        return Objects.equals(name, site.name);
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(name);
+    }
+}
