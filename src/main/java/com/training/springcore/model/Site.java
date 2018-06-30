@@ -70,4 +70,13 @@ public class Site {
 
         return Objects.hash(name);
     }
+
+    @Override
+    public String toString() {
+        return "Site{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", captors=" + captors +
+                '}';
+    }
 }

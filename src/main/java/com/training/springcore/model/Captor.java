@@ -56,4 +56,12 @@ public class Captor {
 
         return Objects.hash(name);
     }
+
+    @Override
+    public String toString() {
+        return "Captor{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }
