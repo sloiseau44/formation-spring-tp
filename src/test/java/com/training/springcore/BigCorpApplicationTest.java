@@ -1,20 +1,18 @@
 package com.training.springcore;
 
 import com.training.springcore.utils.OutputCapture;
-import org.hamcrest.Matchers;
-import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.junit.Assert.*;
 
-public class MyApplicationTest {
+public class BigCorpApplicationTest {
 
     @Rule
     public OutputCapture output = new OutputCapture();
 
-    private MyApplication application = new MyApplication();
+    private BigCorpApplication application = new BigCorpApplication();
 
     @Test
     public void run() {

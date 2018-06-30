@@ -1,9 +1,9 @@
 package com.training.springcore;
 
-public class MyApplication {
+public class BigCorpApplication {
 
     public static void main (String[] args){
-        MyApplication application = new MyApplication();
+        BigCorpApplication application = new BigCorpApplication();
         application.run();
     }
 
