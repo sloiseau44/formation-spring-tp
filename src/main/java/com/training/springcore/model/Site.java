@@ -1,6 +1,7 @@
 package com.training.springcore.model;
 
 import java.util.Objects;
+import java.util.Set;
 import java.util.UUID;
 
 public class Site {
@@ -13,6 +14,11 @@ public class Site {
      * Site name
      */
     private String name;
+
+    /**
+     * Site captors
+     */
+    private Set<Captor> captors;
 
     @Deprecated
     public Site() {
@@ -41,6 +47,14 @@ public class Site {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Set<Captor> getCaptors() {
+        return captors;
+    }
+
+    public void setCaptors(Set<Captor> captors) {
+        this.captors = captors;
     }
 
     @Override
