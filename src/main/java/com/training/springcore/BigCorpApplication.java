@@ -1,9 +1,9 @@
 package com.training.springcore;
 
 import com.training.springcore.service.SiteService;
-import com.training.springcore.service.SiteServiceImpl;
+import com.training.springcore.trash.ServiceA;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class BigCorpApplication {
 
@@ -13,11 +13,12 @@ public class BigCorpApplication {
     }
 
     public void run(){
-        ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
+        ApplicationContext context = new AnnotationConfigApplicationContext(BigCorpApplicationConfig.class);
         System.out.println("Application startup");
         SiteService siteService = context.getBean(SiteService.class);
         System.out.println(siteService.findById("siteA"));
         SiteService siteService2 = context.getBean(SiteService.class);
         System.out.println(siteService2.findById("siteA"));
+
     }
 }
