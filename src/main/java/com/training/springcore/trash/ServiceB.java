@@ -1,5 +1,9 @@
 package com.training.springcore.trash;
 
-public interface ServiceB {
-    String getName();
+
+
+public class ServiceB {
+    public String getName(){
+        return "rr";
+    }
 }
