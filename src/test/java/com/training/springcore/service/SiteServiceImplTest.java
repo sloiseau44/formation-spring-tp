@@ -1,6 +1,7 @@
 package com.training.springcore.service;
 
 import com.training.springcore.utils.OutputCapture;
+import org.junit.Ignore;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -33,6 +34,7 @@ public class SiteServiceImplTest {
     @Rule
     public OutputCapture output = new OutputCapture();
 
+    @Ignore
     @Test
     public void readFileFromUrl(){
         siteService.readFile("url:https://dev-mind.fr/lorem.txt");

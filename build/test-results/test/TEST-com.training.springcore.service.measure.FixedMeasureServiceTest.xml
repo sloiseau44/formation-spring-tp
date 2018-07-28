@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.training.springcore.service.measure.FixedMeasureServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-07-24T06:38:44" hostname="devmind-XPS-15-9530" time="0.034">
+  <properties/>
+  <testcase name="readMeasuresThrowsExceptionWhenArgIsNull" classname="com.training.springcore.service.measure.FixedMeasureServiceTest" time="0.028"/>
+  <testcase name="readMeasures" classname="com.training.springcore.service.measure.FixedMeasureServiceTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Jul 24, 2018 8:38:44 AM org.springframework.test.context.support.AbstractTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Jul 24, 2018 8:38:44 AM org.springframework.test.context.support.AbstractTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@67c0b09f, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1277fa38, org.springframework.test.context.support.DirtiesContextTestExecutionListener@70a5e47f]
+Jul 24, 2018 8:38:44 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.GenericApplicationContext@6885cd73: startup date [Tue Jul 24 08:38:44 CEST 2018]; root of context hierarchy
+Jul 24, 2018 8:38:44 AM org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor <init>
+INFO: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+]]></system-err>
+</testsuite>

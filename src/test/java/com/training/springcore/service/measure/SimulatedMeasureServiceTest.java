@@ -5,6 +5,10 @@ import com.training.springcore.model.Measure;
 import com.training.springcore.model.MeasureStep;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import java.time.Instant;
 import java.util.List;
@@ -12,8 +16,11 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(classes = {MeasureServiceConfigurationTest.class})
 public class SimulatedMeasureServiceTest {
 
+    @Autowired
     private SimulatedMeasureService service;
 
     /**
@@ -66,12 +73,6 @@ public class SimulatedMeasureServiceTest {
                         "2018-09-02T19:00:00Z",
                         "2018-09-02T20:00:00Z",
                         "2018-09-02T21:00:00Z");
-    }
-
-
-    @Before
-    public void init() {
-        service = new SimulatedMeasureService();
     }
 
     @Test

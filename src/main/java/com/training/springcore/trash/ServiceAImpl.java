@@ -27,20 +27,6 @@ public class ServiceAImpl implements ServiceA, ApplicationContextAware {
 
     private ApplicationContext applicationContext;
 
-
-    @PostConstruct
-    public void postConstruct() throws IOException {
-        System.out.println("Service A post construct");
-        Resource resource = resourceLoader.getResource("url:https://dev-mind.fr");
-
-        try (InputStream stream = resource.getInputStream()) {
-            Scanner scanner = new Scanner(stream).useDelimiter("\\n");
-            while (scanner.hasNext()) {
-                System.out.println(scanner.next());
-            }
-        }
-    }
-
     @PreDestroy
     public void preDestroy() {
         System.out.println("Service A pre destroy");

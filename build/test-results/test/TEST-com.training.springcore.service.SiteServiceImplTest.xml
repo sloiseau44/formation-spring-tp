@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.training.springcore.service.SiteServiceImplTest" tests="3" skipped="1" failures="0" errors="0" timestamp="2018-07-24T06:38:45" hostname="devmind-XPS-15-9530" time="0.017">
+  <properties/>
+  <testcase name="readFileFromClasspath" classname="com.training.springcore.service.SiteServiceImplTest" time="0.012"/>
+  <testcase name="readFileFromFileSystem" classname="com.training.springcore.service.SiteServiceImplTest" time="0.003"/>
+  <testcase name="readFileFromUrl" classname="com.training.springcore.service.SiteServiceImplTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[Init SiteServiceImpl :com.training.springcore.service.SiteServiceImpl@6310c3c8
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+]]></system-out>
+  <system-err><![CDATA[Jul 24, 2018 8:38:45 AM org.springframework.test.context.support.AbstractTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+Jul 24, 2018 8:38:45 AM org.springframework.test.context.support.AbstractTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@23df3319, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@8db5a0f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@86ab5d6]
+Jul 24, 2018 8:38:45 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.GenericApplicationContext@32baa192: startup date [Tue Jul 24 08:38:45 CEST 2018]; root of context hierarchy
+Jul 24, 2018 8:38:45 AM org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor <init>
+INFO: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+]]></system-err>
+</testsuite>

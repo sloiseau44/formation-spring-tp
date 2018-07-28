@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.training.springcore.BigCorpApplicationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-07-24T06:38:44" hostname="devmind-XPS-15-9530" time="0.572">
+  <properties/>
+  <testcase name="run" classname="com.training.springcore.BigCorpApplicationTest" time="0.572"/>
+  <system-out><![CDATA[Init SiteServiceImpl :com.training.springcore.service.SiteServiceImpl@2a3eab37
+App context ready
+========================================================================
+Application [BigCorp application (dev)] - version : 3
+plus d'informations sur https://bigcorp.com
+========================================================================
+]]></system-out>
+  <system-err><![CDATA[Jul 24, 2018 8:38:44 AM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@27a4fa81: startup date [Tue Jul 24 08:38:44 CEST 2018]; root of context hierarchy
+Jul 24, 2018 8:38:44 AM org.springframework.context.annotation.ConfigurationClassParser processPropertySource
+INFO: Properties location [file:/data/conf/bigcorp.properties] not resolvable: /data/conf/bigcorp.properties (No such file or directory)
+Jul 24, 2018 8:38:44 AM org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor <init>
+INFO: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+]]></system-err>
+</testsuite>
