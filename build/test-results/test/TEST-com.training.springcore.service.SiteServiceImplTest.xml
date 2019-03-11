@@ -1,12 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.training.springcore.service.SiteServiceImplTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-03-08T11:48:15" hostname="DESKTOP-56HNDCV" time="0.742">
+<testsuite name="com.training.springcore.service.SiteServiceImplTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-03-11T11:19:05" hostname="DESKTOP-56HNDCV" time="1.605">
   <properties/>
-  <testcase name="findById" classname="com.training.springcore.service.SiteServiceImplTest" time="0.74"/>
+  <testcase name="findById" classname="com.training.springcore.service.SiteServiceImplTest" time="0.759"/>
+  <testcase name="readFileFromClasspath" classname="com.training.springcore.service.SiteServiceImplTest" time="0.065"/>
+  <testcase name="readFileFromFileSystem" classname="com.training.springcore.service.SiteServiceImplTest" time="0.005"/>
   <testcase name="findByIdShouldReturnNullWhenIdIsNull" classname="com.training.springcore.service.SiteServiceImplTest" time="0.002"/>
-  <system-out><![CDATA[Init SiteServiceImpl :com.training.springcore.service.SiteServiceImpl@7246db11
-Appel de findById :com.training.springcore.service.SiteServiceImpl@7246db11
-Init SiteServiceImpl :com.training.springcore.service.SiteServiceImpl@f46d603
-Appel de findById :com.training.springcore.service.SiteServiceImpl@f46d603
+  <testcase name="readFileFromUrl" classname="com.training.springcore.service.SiteServiceImplTest" time="0.771"/>
+  <system-out><![CDATA[Init SiteServiceImpl :com.training.springcore.service.SiteServiceImpl@1e501789
+Init SiteServiceImpl :com.training.springcore.service.SiteServiceImpl@55901588
+Appel de findById :com.training.springcore.service.SiteServiceImpl@55901588
+Init SiteServiceImpl :com.training.springcore.service.SiteServiceImpl@7696b709
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+mollit anim id est laborum.
+Init SiteServiceImpl :com.training.springcore.service.SiteServiceImpl@3273c07c
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+mollit anim id est laborum.
+Init SiteServiceImpl :com.training.springcore.service.SiteServiceImpl@74c59b73
+Appel de findById :com.training.springcore.service.SiteServiceImpl@74c59b73
+Init SiteServiceImpl :com.training.springcore.service.SiteServiceImpl@509d3cc8
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 ]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <system-err><![CDATA[mars 11, 2019 12:19:05 PM org.springframework.test.context.support.AbstractTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFOS: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+mars 11, 2019 12:19:05 PM org.springframework.test.context.support.AbstractTestContextBootstrapper getTestExecutionListeners
+INFOS: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@784c8fc4, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@74556db4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2da69e65]
+mars 11, 2019 12:19:05 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFOS: Refreshing org.springframework.context.support.GenericApplicationContext@451764b0: startup date [Mon Mar 11 12:19:05 CET 2019]; root of context hierarchy
+]]></system-err>
 </testsuite>

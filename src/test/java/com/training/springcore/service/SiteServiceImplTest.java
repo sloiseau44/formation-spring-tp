@@ -22,7 +22,9 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.util.Collections;
 import java.util.Set;
 
-import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
+
+//import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 
 @RunWith(SpringRunner.class)
@@ -60,7 +62,7 @@ public class SiteServiceImplTest {
         Site site = siteServiceImpl.findById(siteId);
 
         // Vérification
-        Assertions.assertThat(site).isNull();
+        assertThat(site).isNull();
     }
 
     @Test
@@ -74,9 +76,9 @@ public class SiteServiceImplTest {
         Site site = siteServiceImpl.findById(siteId);
 
         // Vérification
-        Assertions.assertThat(site.getId()).isEqualTo(siteId);
-        Assertions.assertThat(site.getName()).isEqualTo("Florange");
-        Assertions.assertThat(site.getCaptors()).isEqualTo(expectedCaptors);
+        assertThat(site.getId()).isEqualTo(siteId);
+        assertThat(site.getName()).isEqualTo("Florange");
+        assertThat(site.getCaptors()).isEqualTo(expectedCaptors);
     }
 
     @Test

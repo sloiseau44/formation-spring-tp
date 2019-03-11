@@ -15,6 +15,8 @@ public class CaptorServiceImpl implements CaptorService{
     private MeasureService realMeasureService;
     private MeasureService simulatedMeasureService;
 
+    public CaptorServiceImpl(){};
+
     public CaptorServiceImpl (MeasureService fixedMeasureService, MeasureService realMeasureService, MeasureService simulatedMeasureService){
         this.fixedMeasureService=fixedMeasureService;
         this.realMeasureService=realMeasureService;

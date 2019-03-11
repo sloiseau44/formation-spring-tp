@@ -20,13 +20,13 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">5</div>
+<div class="counter">14</div>
 <p>tests</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">0</div>
+<div class="counter">4</div>
 <p>failures</p>
 </div>
 </td>
@@ -38,7 +38,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">1.310s</div>
+<div class="counter">2.934s</div>
 <p>duration</p>
 </div>
 </td>
@@ -47,8 +47,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox success" id="successRate">
-<div class="percent">100%</div>
+<div class="infoBox failures" id="successRate">
+<div class="percent">71%</div>
 <p>successful</p>
 </div>
 </td>
@@ -58,13 +58,37 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Packages</a>
+<a href="#tab0">Failed tests</a>
 </li>
 <li>
-<a href="#tab1">Classes</a>
+<a href="#tab1">Packages</a>
+</li>
+<li>
+<a href="#tab2">Classes</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<ul class="linkList">
+<li>
+<a href="classes/com.training.springcore.BigCorpApplicationTest.html">BigCorpApplicationTest</a>.
+<a href="classes/com.training.springcore.BigCorpApplicationTest.html#run">run</a>
+</li>
+<li>
+<a href="classes/com.training.springcore.service.CaptorServiceImplTest.html">CaptorServiceImplTest</a>.
+<a href="classes/com.training.springcore.service.CaptorServiceImplTest.html#findBySite">findBySite</a>
+</li>
+<li>
+<a href="classes/com.training.springcore.service.measure.RealMeasureServiceTest.html">RealMeasureServiceTest</a>.
+<a href="classes/com.training.springcore.service.measure.RealMeasureServiceTest.html#readMeasures">readMeasures</a>
+</li>
+<li>
+<a href="classes/com.training.springcore.service.measure.SimulatedMeasureServiceTest.html">SimulatedMeasureServiceTest</a>.
+<a href="classes/com.training.springcore.service.measure.SimulatedMeasureServiceTest.html#readMeasures">readMeasures</a>
+</li>
+</ul>
+</div>
+<div id="tab1" class="tab">
 <h2>Packages</h2>
 <table>
 <thead>
@@ -79,29 +103,39 @@
 </thead>
 <tbody>
 <tr>
-<td class="success">
+<td class="failures">
 <a href="packages/com.training.springcore.html">com.training.springcore</a>
 </td>
 <td>1</td>
+<td>1</td>
 <td>0</td>
-<td>0</td>
-<td>0.515s</td>
-<td class="success">100%</td>
+<td>1.182s</td>
+<td class="failures">0%</td>
 </tr>
 <tr>
-<td class="success">
+<td class="failures">
 <a href="packages/com.training.springcore.service.html">com.training.springcore.service</a>
 </td>
-<td>4</td>
+<td>7</td>
+<td>1</td>
 <td>0</td>
+<td>1.679s</td>
+<td class="failures">85%</td>
+</tr>
+<tr>
+<td class="failures">
+<a href="packages/com.training.springcore.service.measure.html">com.training.springcore.service.measure</a>
+</td>
+<td>6</td>
+<td>2</td>
 <td>0</td>
-<td>0.795s</td>
-<td class="success">100%</td>
+<td>0.073s</td>
+<td class="failures">66%</td>
 </tr>
 </tbody>
 </table>
 </div>
-<div id="tab1" class="tab">
+<div id="tab2" class="tab">
 <h2>Classes</h2>
 <table>
 <thead>
@@ -116,34 +150,64 @@
 </thead>
 <tbody>
 <tr>
-<td class="success">
+<td class="failures">
 <a href="classes/com.training.springcore.BigCorpApplicationTest.html">com.training.springcore.BigCorpApplicationTest</a>
 </td>
 <td>1</td>
+<td>1</td>
 <td>0</td>
-<td>0</td>
-<td>0.515s</td>
-<td class="success">100%</td>
+<td>1.182s</td>
+<td class="failures">0%</td>
 </tr>
 <tr>
-<td class="success">
+<td class="failures">
 <a href="classes/com.training.springcore.service.CaptorServiceImplTest.html">com.training.springcore.service.CaptorServiceImplTest</a>
 </td>
 <td>2</td>
+<td>1</td>
 <td>0</td>
-<td>0</td>
-<td>0.053s</td>
-<td class="success">100%</td>
+<td>0.077s</td>
+<td class="failures">50%</td>
 </tr>
 <tr>
 <td class="success">
 <a href="classes/com.training.springcore.service.SiteServiceImplTest.html">com.training.springcore.service.SiteServiceImplTest</a>
 </td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>1.602s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success">
+<a href="classes/com.training.springcore.service.measure.FixedMeasureServiceTest.html">com.training.springcore.service.measure.FixedMeasureServiceTest</a>
+</td>
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.742s</td>
+<td>0.062s</td>
 <td class="success">100%</td>
+</tr>
+<tr>
+<td class="failures">
+<a href="classes/com.training.springcore.service.measure.RealMeasureServiceTest.html">com.training.springcore.service.measure.RealMeasureServiceTest</a>
+</td>
+<td>2</td>
+<td>1</td>
+<td>0</td>
+<td>0.007s</td>
+<td class="failures">50%</td>
+</tr>
+<tr>
+<td class="failures">
+<a href="classes/com.training.springcore.service.measure.SimulatedMeasureServiceTest.html">com.training.springcore.service.measure.SimulatedMeasureServiceTest</a>
+</td>
+<td>2</td>
+<td>1</td>
+<td>0</td>
+<td>0.004s</td>
+<td class="failures">50%</td>
 </tr>
 </tbody>
 </table>
@@ -156,7 +220,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.1</a> at 8 mars 2019 12:48:16</p>
+<a href="http://www.gradle.org">Gradle 5.1</a> at 11 mars 2019 12:19:07</p>
 </div>
 </div>
 </body>
