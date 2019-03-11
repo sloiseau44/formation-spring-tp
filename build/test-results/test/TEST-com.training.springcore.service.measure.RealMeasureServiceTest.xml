@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.training.springcore.service.measure.RealMeasureServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-03-11T11:23:49" hostname="DESKTOP-56HNDCV" time="0.007">
+<testsuite name="com.training.springcore.service.measure.RealMeasureServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-03-11T13:32:08" hostname="DESKTOP-56HNDCV" time="0.007">
   <properties/>
-  <testcase name="readMeasuresThrowsExceptionWhenArgIsNull" classname="com.training.springcore.service.measure.RealMeasureServiceTest" time="0.002"/>
-  <testcase name="readMeasures" classname="com.training.springcore.service.measure.RealMeasureServiceTest" time="0.004"/>
+  <testcase name="readMeasuresThrowsExceptionWhenArgIsNull" classname="com.training.springcore.service.measure.RealMeasureServiceTest" time="0.003"/>
+  <testcase name="readMeasures" classname="com.training.springcore.service.measure.RealMeasureServiceTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[mars 11, 2019 12:23:49 PM org.springframework.test.context.support.AbstractTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+  <system-err><![CDATA[mars 11, 2019 2:32:07 PM org.springframework.test.context.support.AbstractTestContextBootstrapper getDefaultTestExecutionListenerClassNames
 INFOS: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-mars 11, 2019 12:23:49 PM org.springframework.test.context.support.AbstractTestContextBootstrapper getTestExecutionListeners
-INFOS: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@72e31ada, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@605b80db, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5548d63]
+mars 11, 2019 2:32:07 PM org.springframework.test.context.support.AbstractTestContextBootstrapper getTestExecutionListeners
+INFOS: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4cfa58dd, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1c73246c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@51f22685]
 ]]></system-err>
 </testsuite>

@@ -1,5 +1,6 @@
 package com.training.springcore.service;
 
+import com.training.springcore.config.Monitored;
 import com.training.springcore.model.Site;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
@@ -26,6 +27,7 @@ public class SiteServiceImpl implements SiteService {
     }
 
     @Override
+    @Monitored
     public Site findById(String siteId) {
         System.out.println("Appel de findById :" + this);
         if (siteId == null) {

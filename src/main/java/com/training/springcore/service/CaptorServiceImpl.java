@@ -1,6 +1,7 @@
 package com.training.springcore.service;
 
 import com.training.springcore.model.Captor;
+import com.training.springcore.config.Monitored;
 import com.training.springcore.model.PowerSource;
 import com.training.springcore.service.measure.MeasureService;
 import org.springframework.stereotype.Service;
@@ -24,6 +25,7 @@ public class CaptorServiceImpl implements CaptorService{
     }
 
     @Override
+    @Monitored
     public Set<Captor> findBySite(String siteId) {
         Set<Captor> captors = new HashSet<>();
         if (siteId == null) {

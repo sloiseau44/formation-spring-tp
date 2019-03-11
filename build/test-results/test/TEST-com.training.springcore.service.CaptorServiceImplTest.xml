@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.training.springcore.service.CaptorServiceImplTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2019-03-11T11:23:49" hostname="DESKTOP-56HNDCV" time="0.084">
+<testsuite name="com.training.springcore.service.CaptorServiceImplTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2019-03-11T13:32:07" hostname="DESKTOP-56HNDCV" time="0.108">
   <properties/>
-  <testcase name="findBySite" classname="com.training.springcore.service.CaptorServiceImplTest" time="0.084">
-    <failure message="java.lang.AssertionError: &#13;&#10;Expected size:&lt;1&gt; but was:&lt;3&gt; in:&#13;&#10;&lt;[Captor{id='3de5bca6-897f-46fc-a828-cb828c2f99bb', name='Capteur real'},&#13;&#10;    Captor{id='b846299f-9768-475b-aa7e-276e994d8b9f', name='Capteur simulated'},&#13;&#10;    Captor{id='c3c79768-0b57-4520-a718-8fc72ae3941e', name='Capteur fixed'}]&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
+  <testcase name="findBySite" classname="com.training.springcore.service.CaptorServiceImplTest" time="0.107">
+    <failure message="java.lang.AssertionError: &#13;&#10;Expected size:&lt;1&gt; but was:&lt;3&gt; in:&#13;&#10;&lt;[Captor{id='b253ff45-7d9f-42bb-8328-6e6396926c39', name='Capteur real'},&#13;&#10;    Captor{id='c39d05d1-994f-4630-bd8f-f03f6906594d', name='Capteur simulated'},&#13;&#10;    Captor{id='44db0d1d-2750-4756-9a57-b63ada3d0484', name='Capteur fixed'}]&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
 Expected size:&lt;1&gt; but was:&lt;3&gt; in:
-&lt;[Captor{id='3de5bca6-897f-46fc-a828-cb828c2f99bb', name='Capteur real'},
-    Captor{id='b846299f-9768-475b-aa7e-276e994d8b9f', name='Capteur simulated'},
-    Captor{id='c3c79768-0b57-4520-a718-8fc72ae3941e', name='Capteur fixed'}]&gt;
+&lt;[Captor{id='b253ff45-7d9f-42bb-8328-6e6396926c39', name='Capteur real'},
+    Captor{id='c39d05d1-994f-4630-bd8f-f03f6906594d', name='Capteur simulated'},
+    Captor{id='44db0d1d-2750-4756-9a57-b63ada3d0484', name='Capteur fixed'}]&gt;
 	at com.training.springcore.service.CaptorServiceImplTest.findBySite(CaptorServiceImplTest.java:34)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
