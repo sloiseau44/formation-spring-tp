@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.training.springcore.service.SiteServiceImplTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-03-08T10:50:15" hostname="DESKTOP-56HNDCV" time="0.863">
+<testsuite name="com.training.springcore.service.SiteServiceImplTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-03-08T11:48:15" hostname="DESKTOP-56HNDCV" time="0.742">
   <properties/>
-  <testcase name="findById" classname="com.training.springcore.service.SiteServiceImplTest" time="0.861"/>
+  <testcase name="findById" classname="com.training.springcore.service.SiteServiceImplTest" time="0.74"/>
   <testcase name="findByIdShouldReturnNullWhenIdIsNull" classname="com.training.springcore.service.SiteServiceImplTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
+  <system-out><![CDATA[Init SiteServiceImpl :com.training.springcore.service.SiteServiceImpl@7246db11
+Appel de findById :com.training.springcore.service.SiteServiceImpl@7246db11
+Init SiteServiceImpl :com.training.springcore.service.SiteServiceImpl@f46d603
+Appel de findById :com.training.springcore.service.SiteServiceImpl@f46d603
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
