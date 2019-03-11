@@ -2,6 +2,7 @@ package com.training.springcore.model;
 
 import java.util.Set;
 
+
 public class ApplicationInfo {
     private String name;
     private Integer version;

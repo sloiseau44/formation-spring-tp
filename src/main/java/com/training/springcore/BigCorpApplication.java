@@ -1,7 +1,7 @@
 package com.training.springcore;
 
+import com.training.springcore.config.BigCorpApplicationConfig;
 import com.training.springcore.model.ApplicationInfo;
-import com.training.springcore.service.*;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

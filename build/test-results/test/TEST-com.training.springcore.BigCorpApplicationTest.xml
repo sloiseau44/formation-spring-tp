@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.training.springcore.BigCorpApplicationTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-03-11T11:19:03" hostname="DESKTOP-56HNDCV" time="1.182">
+<testsuite name="com.training.springcore.BigCorpApplicationTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-03-11T11:23:48" hostname="DESKTOP-56HNDCV" time="1.057">
   <properties/>
-  <testcase name="run" classname="com.training.springcore.BigCorpApplicationTest" time="1.182">
-    <failure message="java.lang.AssertionError: &#10;Expected: a string containing &quot;plus d'informations sur https://www.bigcorp.com&quot;&#10;     but: was &quot;mars 11, 2019 12:19:04 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh&#13;&#10;INFOS: Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@12a5cbb9: startup date [Mon Mar 11 12:19:04 CET 2019]; root of context hierarchy&#13;&#10;Init SiteServiceImpl :com.training.springcore.service.SiteServiceImpl@277305cc&#13;&#10;==========================================================&#13;&#10;Application [BigCorp application (dev)] - version : 1&#13;&#10;plus d'informations sur https://bigcorp.com&#13;&#10;==========================================================&#13;&#10;&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+  <testcase name="run" classname="com.training.springcore.BigCorpApplicationTest" time="1.057">
+    <failure message="java.lang.AssertionError: &#10;Expected: a string containing &quot;plus d'informations sur https://www.bigcorp.com&quot;&#10;     but: was &quot;mars 11, 2019 12:23:48 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh&#13;&#10;INFOS: Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@12a5cbb9: startup date [Mon Mar 11 12:23:48 CET 2019]; root of context hierarchy&#13;&#10;Init SiteServiceImpl :com.training.springcore.service.SiteServiceImpl@277305cc&#13;&#10;==========================================================&#13;&#10;Application [BigCorp application (dev)] - version : 1&#13;&#10;plus d'informations sur https://bigcorp.com&#13;&#10;==========================================================&#13;&#10;&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
 Expected: a string containing &quot;plus d'informations sur https://www.bigcorp.com&quot;
-     but: was &quot;mars 11, 2019 12:19:04 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
-INFOS: Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@12a5cbb9: startup date [Mon Mar 11 12:19:04 CET 2019]; root of context hierarchy
+     but: was &quot;mars 11, 2019 12:23:48 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFOS: Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@12a5cbb9: startup date [Mon Mar 11 12:23:48 CET 2019]; root of context hierarchy
 Init SiteServiceImpl :com.training.springcore.service.SiteServiceImpl@277305cc
 ==========================================================
 Application [BigCorp application (dev)] - version : 1
@@ -73,7 +73,7 @@ Application [BigCorp application (dev)] - version : 1
 plus d'informations sur https://bigcorp.com
 ==========================================================
 ]]></system-out>
-  <system-err><![CDATA[mars 11, 2019 12:19:04 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
-INFOS: Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@12a5cbb9: startup date [Mon Mar 11 12:19:04 CET 2019]; root of context hierarchy
+  <system-err><![CDATA[mars 11, 2019 12:23:48 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFOS: Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@12a5cbb9: startup date [Mon Mar 11 12:23:48 CET 2019]; root of context hierarchy
 ]]></system-err>
 </testsuite>
