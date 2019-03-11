@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.training.springcore.BigCorpApplicationTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-03-11T13:32:06" hostname="DESKTOP-56HNDCV" time="1.03">
+<testsuite name="com.training.springcore.BigCorpApplicationTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-03-11T14:49:27" hostname="DESKTOP-56HNDCV" time="1.579">
   <properties/>
-  <testcase name="run" classname="com.training.springcore.BigCorpApplicationTest" time="1.03">
-    <failure message="org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.context.event.internalEventListenerProcessor': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error Type referred to is not an annotation type: Monitored" type="org.springframework.beans.factory.BeanCreationException">org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.context.event.internalEventListenerProcessor': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error Type referred to is not an annotation type: Monitored
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:589)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:503)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
-	at org.springframework.context.annotation.AnnotationConfigApplicationContext.&lt;init&gt;(AnnotationConfigApplicationContext.java:88)
-	at com.training.springcore.BigCorpApplication.run(BigCorpApplication.java:16)
+  <testcase name="run" classname="com.training.springcore.BigCorpApplicationTest" time="1.579">
+    <failure message="org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.training.springcore.service.SiteServiceImpl' available" type="org.springframework.beans.factory.NoSuchBeanDefinitionException">org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.training.springcore.service.SiteServiceImpl' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:347)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:334)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1107)
+	at com.training.springcore.BigCorpApplication.run(BigCorpApplication.java:24)
 	at com.training.springcore.BigCorpApplicationTest.run(BigCorpApplicationTest.java:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -64,29 +57,15 @@
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.IllegalArgumentException: error Type referred to is not an annotation type: Monitored
-	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:319)
-	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:227)
-	at org.springframework.aop.aspectj.AspectJExpressionPointcut.obtainPointcutExpression(AspectJExpressionPointcut.java:198)
-	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:177)
-	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:225)
-	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:288)
-	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:320)
-	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:126)
-	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:95)
-	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:76)
-	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:352)
-	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:304)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:439)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1712)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:581)
-	... 60 more
 </failure>
   </testcase>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[mars 11, 2019 2:32:06 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
-INFOS: Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@12a5cbb9: startup date [Mon Mar 11 14:32:06 CET 2019]; root of context hierarchy
-mars 11, 2019 2:32:07 PM org.springframework.context.support.AbstractApplicationContext refresh
-AVERTISSEMENT: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.context.event.internalEventListenerProcessor': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error Type referred to is not an annotation type: Monitored
+  <system-out><![CDATA[Init SiteServiceImpl :com.training.springcore.service.SiteServiceImpl@6cacbdfd
+==========================================================
+Application [BigCorp application (dev)] - version : 1
+plus d'informations sur https://bigcorp.com
+==========================================================
+]]></system-out>
+  <system-err><![CDATA[mars 11, 2019 3:49:27 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFOS: Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@12a5cbb9: startup date [Mon Mar 11 15:49:27 CET 2019]; root of context hierarchy
 ]]></system-err>
 </testsuite>
